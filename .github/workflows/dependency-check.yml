@@ -15,7 +15,7 @@ jobs:
       uses: dependency-check/Dependency-Check_Action@main
       with:
         project: unit3_2
-        path: .
+        path: ./unit3/unit3_2
         format: HTML
 
     - name: Upload Report
